@@ -20,7 +20,7 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/profile.jpg" alt="" /></a>
-					<h1><strong>I am a Coder</strong>, who loves to explore<br />
+					<h1>I am a <strong><span class="element"></span></strong>,<br /> who loves to explore<br />
 					and gives 100% commitment.<br />
 				</div>
 			</header>
@@ -514,7 +514,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+			<script>
+				$(function(){
+					$(".element").typed({
+						strings: ["Coder", "Lover", "Traveller", "Fucker"],
+						typeSpeed: 500, 
+						backSpeed: 100
+					});
+				});
+			</script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
