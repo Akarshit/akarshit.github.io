@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="app.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body id="top">
@@ -50,24 +51,27 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
-							<script src="modal-1.js"></script>
-								<a data-toggle="modal" data-target="#myModal" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+								<script src="image-server.js"></script>
+								<a data-toggle="modal" data-target="#myModal" class="image fit thumb"><img src="images/image-server.png" alt="" /></a>
 								<h3>Optimizing serving/uploading of images</h3>
 								<p>Quizziz</p>
 							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Finding right things using Elasticsearch</h3>
-								<p>Quizizz</p>
+							<article class="6u 12u(xsmall) work-item">
+								<script src="elasticsearch.js"></script>
+								<a data-toggle="modal" data-target="#myModal2" class="image fit thumb"><img src="images/es.png" alt="" /></a>
+								<h3>Finding the right things</h3>
+								<p>Quizziz</p>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+								<script src="rabbitmq.js"></script>
+								<a data-toggle="modal" data-target="#myModal3" class="image fit thumb"><img src="images/RabbitMQ.jpeg" alt="" /></a>
 								<h3>Keeping messages safe with RabbitMQ</h3>
 								<p>Quizizz</p>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Using whatever Google has to offer</h3>
+								<script src="redis.js"></script>
+								<a data-toggle="modal" data-target="#myModal3" class="image fit thumb"><img src="images/redis.png" alt="" /></a>
+								<h3>Bifurcation of data between Redis and MongoDB</h3>
 								<p>Quizizz</p>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
@@ -197,6 +201,5 @@
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
