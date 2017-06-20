@@ -17,6 +17,6 @@ pre code {
     display: inherit;
 }
 
-.image.fit {
-    height: 12em;
+.image.fit img {
+    height: 13em;
 }
