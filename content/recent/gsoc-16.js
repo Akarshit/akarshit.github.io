@@ -16,8 +16,6 @@ document.write(`
       At that time in Java 6 async was not there and parallelization in a huge code like that of Processing was not trivial to implement.
       My mentor Scott Murray was kind enough to make the designs and my job to implement them on using Swing. 
       For the backend I used vamilla thread for downloading multiple things parallely.
-      The code can be read at <a href="#"></a>
-      <div ng-bind-html="trustedHtml" class="ng-binding"><h3 id="google-summer-of-code-2016">Google Summer Of Code 2016</h3>
         <h4 id="project-details">Project Details</h4>
         <p><strong>Organization</strong> -The Center for Connected Learning and Computer-Based Modeling</p>
         <p><strong>Mentor</strong> - Robert Grider  </p>
@@ -41,8 +39,9 @@ document.write(`
         <p>This add a feature by which the user can directly jump to the place of declaration for a variable. The option can be easily selected from the right click menu.</p>
         <h5 id="4-undoredo-for-widgetshttpsgithubcomnetlogonetlogopull1088">4. <a href="https://github.com/NetLogo/NetLogo/pull/1088">Undo/Redo for widgets</a></h5>
         <p>The users can now undo/redo the addition/removal/resizing/movement of widget. The shortcuts for the undo/redo are same as that for normal text undo. The feature also remembers the selected/unselected state of the widget and supports easy editing of the widgets.</p>
-        </div>
-      </div>
+        <h2> Testimonial </h2>
+        Akarshit, you've done an excellent job this summer working for the CCL. Thanks so much for your contributions! I especially appreciated your willingness to start new tasks and enter new areas of the code. You did terrific work and I'm excited that we're getting to release it to our users. I was really glad to have your expertise in working with Swing and you employed several patterns I hadn't seen before which allowed the code to be flexible and even beautiful. I would encourage you to continue learning more about Scala and functional programming. I wish we had had more time this summer to spend working on improving your knowledge in these areas. You clearly have a terrific knowledge of the java ecosystem. Continue to build on that and I'm excited to see what you do in the future!
+    </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
